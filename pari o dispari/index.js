@@ -7,9 +7,9 @@ startButton.addEventListener('click',
         // Numero casuale pc
         let pcGenerate1 = random(1, 50);
         console.log(pcGenerate1);
-
+        // Somma numeri
         let sommaNumeriPcENumeriUtente = inputUser.value + pcGenerate1;
-
+        console.log(sommaNumeriPcENumeriUtente);
         if(sommaNumeriPcENumeriUtente % 2 === 0){
             console.log(`Pari`);
         }else{
